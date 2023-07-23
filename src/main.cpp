@@ -1,5 +1,9 @@
 #include <Arduino.h>
 #include "WiFi.h"
+#include "ssl_client.h"
+#include "WiFiClientSecure.h"
+#include "WebSockets.h"
+#include "WebSocketsClient.h"
 #include "arduino_secrets.h"
 
 bool isConnected = false;
